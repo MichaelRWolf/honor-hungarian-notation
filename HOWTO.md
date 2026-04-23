@@ -49,12 +49,12 @@ open speech_output.html
 
 The HTML file supports four interactive views toggled by buttons in the page:
 
-| View | Description |
-| --- | --- |
-| As Written | Plain prose, no annotation |
-| POS-Tagged | POS prefix annotations as black/white text |
-| Tag-Receding | Annotations dimmed, prose in full black |
-| Grammar-Lit | Words color-coded by POS class |
+| View         | Description                                |
+| ------------ | ------------------------------------------ |
+| As Written   | Plain prose, no annotation                 |
+| POS-Tagged   | POS prefix annotations as black/white text |
+| Tag-Receding | Annotations dimmed, prose in full black    |
+| Grammar-Lit  | Words color-coded by POS class             |
 
 ### Other style variants
 

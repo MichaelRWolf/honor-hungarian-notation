@@ -2,10 +2,10 @@
 
 > "I come to honor Hungarian Notation, not to mock it."
 >
-> — *for Hungarian Notation is an honorable practice*
+> — _for Hungarian Notation is an honorable practice_
 
 A Shakespearean denunciation of Hungarian Notation, structured as a parallel to
-Mark Antony's funeral oration from *Julius Caesar* (Act III, Scene II).
+Mark Antony's funeral oration from _Julius Caesar_ (Act III, Scene II).
 
 The speech "defends" Hungarian Notation. Every line is a takedown.
 
