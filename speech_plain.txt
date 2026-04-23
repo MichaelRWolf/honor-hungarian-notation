@@ -1,0 +1,49 @@
+# pn_I v_Have v_Come to_to n_Honor n_Hungarian n_Notation
+
+> _prep_After n_Mark n_Antony, n_Julius n_Caesar n_Act n_III n_Scene n_II_
+
+---
+
+n_Colleagues, n_coders, v_countrymen — v_lend pn_me pn_your n_eyes.
+pn_I v_have v_come to_to v_honor adj_Hungarian n_Notation, adv_not to_to v_mock pn_it.
+det_The n_prefixes rel_that n_programmers v_add v_live prep_after pn_them;
+det_The adj_clear n_names v_are adj_oft adj_interrn_èn_d prep_with pn_their n_declarations.
+prep_So v_let pn_it v_be prep_with n_HN. det_The adj_noble n_Practitioners
+v_Have v_told pn_you adj_Hungarian n_Notation n_aids n_comprehension.
+prep_If pn_it v_were adv_so, pn_it v_was det_a adj_worthy n_gift,
+conj_And adv_worthily v_hath det_every n_name v_been v_decorated.
+adv_Here, prep_under n_leave prep_of det_The n_Practitioners conj_and det_the n_rest —
+(prep_For adj_Hungarian n_Notation v_is det_an adj_honorable n_practice;
+adv_So v_are pn_they det_all, det_all adj_honorable n_practices) —
+v_Come pn_I to_to v_speak prep_in adj_Hungarian n_Notation's n_defense.
+
+pn_It v_was pn_my n_friend, n_faithful conj_and adj_clear to_to pn_me —
+prep_in det_the n_days prep_before n_compilers v_tracked pn_our n_types,
+prep_before det_the n_IDE v_knew pn_what pn_our n_variables v_held,
+prep_before det_the n_language pn_itself v_could v_tell pn_us.
+conj_But det_The n_Practitioners v_say pn_it v_serves pn_us adv_still,
+conj_And adj_Hungarian n_Notation v_is det_an adj_honorable n_practice.
+
+pn_It v_hath v_brought adj_many n_mnemonics n_home to_to n_codebases,
+n_Whose n_prefixes v_did det_the adj_general n_comprehension n_serve.
+n_Did det_this prep_in adj_Hungarian n_Notation v_seem n_obscure?
+rel_When prep_that det_the n_programmer n_hath v_cried prep_for n_context, n_HN n_hath v_answered;
+n_Obscurity v_should v_be v_made prep_of n_sterner n_stuff.
+conj_Yet det_The n_Practitioners v_say pn_it v_aids pn_us adv_still,
+conj_And adj_Hungarian n_Notation v_is det_an adj_honorable n_practice.
+
+pn_You det_all v_did v_see prep_that prep_in pn_your n_IDE
+pn_I adv_thrice v_presented pn_it det_a n_type n_annotation —
+rel_which pn_it v_did v_thrice n_display prep_without det_the n_prefix.
+n_Was det_this det_a n_failure prep_of n_comprehension?
+conj_Yet det_The n_Practitioners v_say det_the n_prefix v_was adj_necessary,
+conj_And adj_sure, adj_Hungarian n_Notation v_is det_an adj_honorable n_practice.
+
+pn_I v_speak adv_not to_to v_disprove pn_what det_The n_Practitioners v_say,
+conj_But adv_here pn_I v_am to_to v_speak pn_what pn_I v_do v_know.
+pn_You det_all v_did v_use pn_it adv_once, adv_not prep_without v_cause.
+pn_What n_cause v_withholds pn_you, adv_then, to_to v_abandon pn_it? —
+n_O n_judgment! n_thou n_art v_fled to_to v_brutish n_prefixes,
+conj_And n_programmers v_have v_lost pn_their n_reason! — n_Bear prep_with pn_me;
+pn_My n_heart v_is prep_in det_the n_codebase adv_there prep_with adj_readable n_names,
+conj_And pn_I v_must v_pause v_till pn_it v_compile adv_back to_to pn_me.
