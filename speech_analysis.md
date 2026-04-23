@@ -2,12 +2,21 @@
 
 ## Character Mapping
 
-| Julius Caesar character | Role in original                                                                 | Maps to                                                                                     |
-| ----------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Caesar**              | The eulogized — accused of ambition, defended by Antony                          | **Readable code** — what HN claimed to help but actually harmed                             |
-| **Brutus**              | The killer — claims Caesar was ambitious, called "honorable" until the word rots | **Hungarian Notation advocates** — called their practice helpful until the word hollows out |
-| **Antony**              | The speaker — claims to honor Caesar while dismantling Brutus                    | **The speaker** — claims to honor HN while systematically dismantling it                    |
-| **The crowd**           | Turns against Brutus by speech's end                                             | **The reader** — arrives skeptical of the speaker's sincerity; leaves agreeing              |
+- **Caesar**
+  - Role: The eulogized — accused of ambition, defended by Antony
+  - Maps to: **Readable code** — what HN claimed to help but actually harmed
+
+- **Brutus**
+  - Role: The killer — claims Caesar was ambitious, called "honorable" until the word rots
+  - Maps to: **Hungarian Notation advocates** — called their practice helpful until the word hollows out
+
+- **Antony**
+  - Role: The speaker — claims to honor Caesar while dismantling Brutus
+  - Maps to: **The speaker** — claims to honor HN while systematically dismantling it
+
+- **The crowd**
+  - Role: Turns against Brutus by speech's end
+  - Maps to: **The reader** — arrives skeptical of the speaker's sincerity; leaves agreeing
 
 **The central irony:** Antony claims one intent ("I come to bury, not to praise") while performing the opposite. Every "defense" of Caesar is actually an indictment of Brutus. The refrain "Brutus is an honorable man" is repeated until it becomes contempt.
 
