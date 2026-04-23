@@ -1,26 +1,55 @@
 # Rhetorical Analysis: Antony's Oration → HN Parallel
 
-## Character Mapping
+## Real-World Roles (keep these distinct)
+
+Three groups exist in the HN world. They are NOT the same and must not be conflated.
+
+- **Simonyi and the originators**
+  - Invented HN for BCPL/C-era development: no type system, no IDE, no autocomplete
+  - Their practice was rational, appropriate, and effective for its time
+  - Not mocked. Not implicated. Acknowledged with respect.
+  - Appear in the speech only as historical context: "there was a time, and it was not without cause"
+
+- **Modern Practitioners** (the cargo cult)
+  - Apply HN today in strongly-typed languages with full IDE support
+  - Do so because "this is how we do it" — not because it solves a current problem
+  - The actual target of the speech
+  - Sincere but wrong: they believe they are following good practice
+  - "Honorable programmers" — the ironic refrain applies to them
+
+- **Luddites / Know-it-all nay-sayers**
+  - Reflexively condemn HN without engaging its history
+  - "Just stop doing that, it's terrible" — no appreciation for why it existed
+  - Not the speaker's voice; not the hero of this piece
+  - The speaker is more sophisticated than a luddite
+
+## Character Mapping (Julius Caesar → HN Speech)
 
 - **Caesar**
-  - Role: The eulogized — accused of ambition, defended by Antony
-  - Maps to: **Readable code** — what HN claimed to help but actually harmed
+  - Role: The eulogized — a practice defended at its funeral
+  - Maps to: **HN as originally practiced** — legitimate in context, now dead
+  - Note: the practice is buried; the originators (Simonyi) are not on trial
 
 - **Brutus**
-  - Role: The killer — claims Caesar was ambitious, called "honorable" until the word rots
-  - Maps to: **Hungarian Notation advocates** — called their practice helpful until the word hollows out
+  - Role: Claims noble motives; called "honorable" until the word rots
+  - Maps to: **Modern Practitioners** — sincere cargo-culters who claim HN still helps
+  - The refrain "for Hungarian Notation is an honorable practice" applies to their claim
+  - They are not evil; they are cargo-culting a practice whose reason no longer exists
 
 - **Antony**
-  - Role: The speaker — claims to honor Caesar while dismantling Brutus
-  - Maps to: **The speaker** — claims to honor HN while systematically dismantling it
+  - Role: Claims to honor Caesar while dismantling Brutus
+  - Maps to: **The speaker** — sophisticated, knows HN's history, defends it ironically
+  - NOT a luddite: does not reflexively condemn; understands why HN existed
+  - NOT a modern practitioner: does not cargo-cult it either
 
 - **The crowd**
   - Role: Turns against Brutus by speech's end
-  - Maps to: **The reader** — arrives skeptical of the speaker's sincerity; leaves agreeing
+  - Maps to: **The reader** — a working programmer who has typed `boolIsValid` in anger
+  - Arrives perhaps unsure; leaves nodding
 
 **The central irony:** Antony claims one intent ("I come to bury, not to praise") while performing the opposite. Every "defense" of Caesar is actually an indictment of Brutus. The refrain "Brutus is an honorable man" is repeated until it becomes contempt.
 
-In our speech: "I come to honor Hungarian Notation, not to mock it." Every "defense" of HN is an indictment. The refrain "...for Hungarian Notation is an honorable practice" is repeated until it curdles.
+In our speech: "I come to honor Hungarian Notation, not to mock it." Every "defense" of HN reveals that its practitioners are applying it past its sell-by date. The refrain "...for Hungarian Notation is an honorable practice" curdles with each repetition — not because HN was always wrong, but because it is wrong _now_.
 
 ---
 
@@ -72,7 +101,9 @@ What was added to help survives long after the original type has changed. The va
 
 First appearance of the refrain — still plausibly sincere. By the third appearance it will mean the opposite.
 
-**Targets:** Charles Simonyi, the Win32 API style guide, the advocates who spread it to every codebase they touched.
+**Targets:** Modern Practitioners — the teams, style guides, and senior engineers
+who spread HN to every new codebase today, without asking whether the reason still applies.
+Simonyi is not in the dock. His era made it sensible.
 
 ---
 
@@ -91,13 +122,19 @@ Each stanza presents a piece of evidence for Caesar's virtue, followed by the ac
 **HN parallel:**
 
 > It was our friend, faithful and clear to us —
-> in the era before compilers tracked types,
-> before IDEs knew what your variable held,
+> in the days before compilers tracked types,
+> before the IDE knew what your variable held,
 > before the language itself could tell you.
-> But experience says it was a crutch,
+> But the practitioners say it still serves us,
 > And Hungarian Notation is an honorable practice.
 
-**HN critique embedded:** HN solved a real problem — in 1984. BCPL had no types. C's type system was weak. Programmers genuinely needed a way to remember what a variable held. The practice was rational. It was also time-limited.
+**HN critique embedded:** HN solved a real problem — in the BCPL/C era. No types, no
+tooling, no hover-to-inspect. Programmers genuinely needed to remember what a variable
+held. The practice was rational. That era is over. The practitioners have not noticed.
+
+Note: "But [someone] says it was a crutch" is a **luddite line** — dismissive, ahistorical.
+The speaker does not say this. The speaker says "it served us... but the practitioners
+still say it serves us still" — honoring the past while revealing the present absurdity.
 
 #### Stanza B — "He hath brought many captives home" (lines 26–32)
 
