@@ -15,24 +15,32 @@ Part of a two-repo project; the tooling lives in `~/repos/pos-decorate`.
 | ----- | ------------------------------------ | --------- |
 | -1A   | Create pos-decorate repo             | ✅ done   |
 | -1B   | Create honor-hungarian-notation repo | ✅ done   |
-| 0     | Copy speech source → speech.md       | ✅ done   |
+| 0     | Copy Shakespeare source              | ✅ done   |
 | 1     | Rhetorical analysis                  | ✅ done   |
 | 2     | HN pro/con research                  | ✅ done   |
 | 3     | Speech draft                         | ✅ FROZEN |
 | 4     | pos-decorate CLI (Repo A)            | ✅ done   |
-| 4B    | Generate speech_output.html          | ✅ done   |
+| 4B    | Generate hn_output.html              | ✅ done   |
 | 5     | Blog post → michaelrwolf.github.io   | ⬜ next   |
 
 ## Resume
 
 Say `continue` to pick up Phase 5 (blog post).
 
+## File Naming Convention
+
+| Prefix    | Meaning                                 |
+| --------- | --------------------------------------- |
+| `brutus_` | Shakespeare source — Antony's oration   |
+| `hn_`     | Hungarian Notation parallel — our piece |
+
 ## Key Artifacts
 
-- `speech_draft.md` — frozen speech (do not edit without unfreezing)
-- `speech_output.html` — interactive HTML, open directly in browser
-- `speech_plain.txt` — plain POS-decorated text
-- `speech_analysis.md` — rhetorical move map, character mapping, irony gradient
+- `brutus_speech.md` — Shakespeare source (Antony's oration, Act III Scene II)
+- `hn_speech.md` — frozen HN parallel (do not edit without unfreezing)
+- `hn_analysis.md` — rhetorical move map, character mapping, irony gradient
+- `hn_output.html` — interactive HTML, open directly in browser
+- `hn_plain.txt` — plain POS-decorated text
 - `hungarian_notation_pro_con.md` — research: era-appropriate virtues + modern cons
 
 ## Key Decisions
@@ -55,5 +63,5 @@ pos-decorate lives in `~/repos/pos-decorate` with its own venv:
 
 ```bash
 source ~/repos/pos-decorate/venv/bin/activate
-pos-decorate speech_draft.md --style html > speech_output.html
+pos-decorate hn_speech.md --style html > hn_output.html
 ```

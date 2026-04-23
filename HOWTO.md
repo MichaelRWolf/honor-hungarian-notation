@@ -5,49 +5,58 @@
 Install `pos-decorate` from the companion repo:
 
 ```bash
-git clone https://github.com/MichaelRWolf/pos-decorate.git
-cd pos-decorate
+cd ~/repos/pos-decorate
+python -m venv venv
+source venv/bin/activate
 pip install -e .
 ```
 
-## Generate Outputs from the Speech
+Or, if already installed:
+
+```bash
+source ~/repos/pos-decorate/venv/bin/activate
+```
+
+## File Naming Convention
+
+| Prefix    | Meaning                                 |
+| --------- | --------------------------------------- |
+| `brutus_` | Shakespeare source — Antony's oration   |
+| `hn_`     | Hungarian Notation parallel — our piece |
+
+## Generate Outputs from the HN Speech
 
 All commands run from the root of this repo.
 
 ### Verify the tokenizer round-trips cleanly
 
 ```bash
-pos-decorate speech.md --verify-parse-and-regenerate
+pos-decorate hn_speech.md --verify-parse-and-regenerate
 ```
 
-Parses `speech.md`, regenerates the text from the parse tree, and diffs the result
-against the original. Expects an empty diff. Exit code 0 = clean.
+Parses `hn_speech.md`, regenerates the text from the parse tree, and diffs the result
+against the original. Expects `OK`. Exit code 0 = clean.
 
 ### Inspect the parse tree (debug)
 
 ```bash
-pos-decorate speech.md --style=parse-tree
+pos-decorate hn_speech.md --style=parse-tree
 ```
 
-Shows each token with its POS tag and trailing whitespace. Useful for verifying that
-punctuation and line breaks are preserved correctly.
+Shows each token with its POS tag and readable abbreviation.
 
-### Plain text with POS prefixes (default)
+### Plain text with POS prefixes
 
 ```bash
-pos-decorate speech.md
-# or explicitly:
-pos-decorate speech.md --style=plain
+pos-decorate hn_speech.md --style=plain > hn_plain.txt
 ```
 
-### HTML with all four view modes
+### Interactive HTML (all four view modes)
 
 ```bash
-pos-decorate speech.md --style=html > speech_output.html
-open speech_output.html
+pos-decorate hn_speech.md --style=html > hn_output.html
+open hn_output.html
 ```
-
-The HTML file supports four interactive views toggled by buttons in the page:
 
 | View         | Description                                |
 | ------------ | ------------------------------------------ |
@@ -59,15 +68,23 @@ The HTML file supports four interactive views toggled by buttons in the page:
 ### Other style variants
 
 ```bash
-pos-decorate speech.md --style=raw-nltk   # NNS_Friends, VBP_come
-pos-decorate speech.md --style=camel      # strFriends, vCome
+pos-decorate hn_speech.md --style=raw-nltk   # NNS_Friends, VBP_come
+pos-decorate hn_speech.md --style=camel      # nFriends, vCome
 ```
 
-## Regenerate after editing the speech
-
-If `speech_draft.md` changes, rerun:
+### Run the same styles against the Shakespeare source
 
 ```bash
-pos-decorate speech_draft.md --verify-parse-and-regenerate && \
-pos-decorate speech_draft.md --style=html > speech_output.html
+pos-decorate brutus_speech.md --style=plain
+pos-decorate brutus_speech.md --style=html > brutus_output.html
+```
+
+## Regenerate after editing the HN speech
+
+If `hn_speech.md` is unfrozen and edited, rerun:
+
+```bash
+pos-decorate hn_speech.md --verify-parse-and-regenerate && \
+pos-decorate hn_speech.md --style=html  > hn_output.html && \
+pos-decorate hn_speech.md --style=plain > hn_plain.txt
 ```
