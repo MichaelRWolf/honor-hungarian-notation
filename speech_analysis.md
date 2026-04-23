@@ -27,14 +27,17 @@ Three groups exist in the HN world. They are NOT the same and must not be confla
 
 - **Caesar**
   - Role: The eulogized — a practice defended at its funeral
-  - Maps to: **HN as originally practiced** — legitimate in context, now dead
-  - Note: the practice is buried; the originators (Simonyi) are not on trial
+  - Maps to: **Simonyi's original Apps Hungarian** — legitimate in context, now dead
+  - Note: Apps Hungarian prefixed _kind/purpose_, not type (e.g. `xPos`/`yPos` — both ints,
+    one a column, one a row; mixing them is a semantic bug the type system can't catch)
+  - The practice is buried; Simonyi is not on trial
 
 - **Brutus**
   - Role: Claims noble motives; called "honorable" until the word rots
   - Maps to: **The Practitioners** — sincere cargo-culters who claim HN still helps
-  - The refrain "for Hungarian Notation is an honorable practice" applies to their claim
-  - They are not evil; they are cargo-culting a practice whose reason no longer exists
+  - They practice **Systems Hungarian** (the Microsoft mutation: prefixes for _type_, not kind)
+  - They defend "Hungarian Notation" as if it were Simonyi's invention — but it isn't
+  - They are not evil; they are defending a thing they are not doing
 
 - **Antony**
   - Role: Claims to honor Caesar while dismantling Brutus
@@ -50,6 +53,12 @@ Three groups exist in the HN world. They are NOT the same and must not be confla
 **The central irony:** Antony claims one intent ("I come to bury, not to praise") while performing the opposite. Every "defense" of Caesar is actually an indictment of Brutus. The refrain "Brutus is an honorable man" is repeated until it becomes contempt.
 
 In our speech: "I come to honor Hungarian Notation, not to mock it." Every "defense" of HN reveals that its practitioners are applying it past its sell-by date. The refrain "...for Hungarian Notation is an honorable practice" curdles with each repetition — not because HN was always wrong, but because it is wrong _now_.
+
+**The second irony (from the pro/con):** Simonyi's original (Apps Hungarian) prefixed
+_kind_, not _type_ — a distinction the compiler couldn't enforce. The mutation The
+Practitioners actually practice (Systems Hungarian) prefixes _type_ — information the
+compiler already has. They are defending one practice while performing another. The
+eulogized Caesar is not the man in the street.
 
 ---
 
@@ -243,13 +252,20 @@ In our speech: "for Hungarian Notation is an honorable practice" follows the sam
 
 ---
 
-## HN Critique Points (for Phase 2 research)
+## HN Critique Points (grounded in pro/con)
 
-Derived from the moves above — each needs a line in the speech:
+Each maps to a rhetorical move. Each was a genuine virtue; each has been superseded.
 
 1. **Time-bounded validity** — it worked in the typeless BCPL/C era; the era is over (Stanza A)
-2. **Refactoring rot** — prefixes outlive the types they document; lying names are worse than no names (Move 2)
-3. **Redundancy with tooling** — IDE hover, static analysis, type annotations superseded the need (Stanza C)
-4. **Reading tax** — `lpszWindowTitle` is a comprehension obstacle, not an aid; literate readers infer type from context (Stanza B + Move 5)
-5. **Training-wheels argument** — HN prevents learning to write self-documenting names (Move 5)
-6. **The prefix dictionary problem** — you must memorize `lpsz`, `dw`, `cb`, `cch` to read Win32 code; this is a second language on top of the first (general)
+2. **Refactoring rot** — prefixes outlive the types they document; `nCount` becomes a float;
+   lying names are worse than no annotation (Move 2)
+3. **Redundancy with tooling** — IDE hover, static analysis, type annotations superseded
+   the need; the IDE presents the type three times without asking (Stanza C)
+4. **The prefix dictionary is itself a cognitive burden** — to read Win32 code you must
+   memorize `lpsz`, `dw`, `cb`, `cch`, `h`, `b`, `f`, `p`, `w`; this is a second language
+   on top of the first; the promised comprehension aid becomes a comprehension tax (Stanza B)
+5. **Training-wheel effect** — HN makes good naming optional; the discipline atrophies;
+   `nX`, `bFlag`, `szBuf` pass review (Move 5)
+6. **The wrong Hungarian** — The Practitioners defend Apps Hungarian (semantic kind, Simonyi's
+   invention) while practicing Systems Hungarian (type, the Microsoft mutation); they have
+   the wrong thing right and the right thing wrong (central irony, speech opening)
