@@ -32,7 +32,7 @@ Three groups exist in the HN world. They are NOT the same and must not be confla
 
 - **Brutus**
   - Role: Claims noble motives; called "honorable" until the word rots
-  - Maps to: **Modern Practitioners** — sincere cargo-culters who claim HN still helps
+  - Maps to: **The Practitioners** — sincere cargo-culters who claim HN still helps
   - The refrain "for Hungarian Notation is an honorable practice" applies to their claim
   - They are not evil; they are cargo-culting a practice whose reason no longer exists
 
@@ -101,7 +101,7 @@ What was added to help survives long after the original type has changed. The va
 
 First appearance of the refrain — still plausibly sincere. By the third appearance it will mean the opposite.
 
-**Targets:** Modern Practitioners — the teams, style guides, and senior engineers
+**Targets:** The Practitioners — the teams, style guides, and senior engineers
 who spread HN to every new codebase today, without asking whether the reason still applies.
 Simonyi is not in the dock. His era made it sensible.
 
@@ -125,15 +125,15 @@ Each stanza presents a piece of evidence for Caesar's virtue, followed by the ac
 > in the days before compilers tracked types,
 > before the IDE knew what your variable held,
 > before the language itself could tell you.
-> But the practitioners say it still serves us,
+> But The Practitioners say it still serves us,
 > And Hungarian Notation is an honorable practice.
 
 **HN critique embedded:** HN solved a real problem — in the BCPL/C era. No types, no
 tooling, no hover-to-inspect. Programmers genuinely needed to remember what a variable
-held. The practice was rational. That era is over. The practitioners have not noticed.
+held. The practice was rational. That era is over. The Practitioners have not noticed.
 
 Note: "But [someone] says it was a crutch" is a **luddite line** — dismissive, ahistorical.
-The speaker does not say this. The speaker says "it served us... but the practitioners
+The speaker does not say this. The speaker says "it served us... but The Practitioners
 still say it serves us still" — honoring the past while revealing the present absurdity.
 
 #### Stanza B — "He hath brought many captives home" (lines 26–32)
@@ -150,15 +150,20 @@ still say it serves us still" — honoring the past while revealing the present 
 
 **HN parallel:**
 
-> It hath brought many type hints home to codebases,
-> Whose prefixes did the general comprehension fill.
-> Did this in Hungarian Notation seem unreadable?
-> When that the programmer hath cried for guidance, HN hath provided;
-> Unreadability should be made of sterner stuff.
-> Yet experience says it was unreadable,
+> It hath brought many mnemonics home to codebases,
+> Whose prefixes did the general comprehension serve.
+> Did this in Hungarian Notation seem obscure?
+> When that the programmer hath cried for context, HN hath provided;
+> Obscurity should be made of sterner stuff.
+> Yet The Practitioners say it aids comprehension still,
 > And Hungarian Notation is an honorable practice.
 
-**HN critique embedded:** The "filling" happened. The type hints were there. But at what cost? `lpszWindowTitle`, `boolIsValidFlag`, `nCount`. The comprehension tax on the surrounding letters. Readability should be made of sterner stuff than memorizing a prefix dictionary.
+**HN critique embedded:** The service was real. The mnemonics were genuine. In the days of
+BCPL and early C, a prefix was the only context a programmer had — no hover, no inference,
+no type checker at your shoulder. But the crowd knows the rest: today the compiler tracks
+the type, the IDE displays it on hover, the language enforces it at every boundary. To claim
+HN still reduces cognitive load is to carry a lantern at noon. The light was real. The need
+for it is not. The refrain begins to curdle.
 
 #### Stanza C — "The thrice-refused crown" (lines 33–37)
 
@@ -176,7 +181,7 @@ still say it serves us still" — honoring the past while revealing the present 
 > I thrice presented it a type annotation —
 > which it did thrice display without the prefix.
 > Was this unreadability?
-> Yet the advocates say it was necessary,
+> Yet The Practitioners say it was necessary,
 > And sure, Hungarian Notation is an honorable practice.
 
 **HN critique embedded:** The IDE knows the type. Hover over the variable: the type appears. The prefix is redundant. Three times you type `n_`, three times the tooling already knew. "Sure" — the crack appears.
@@ -194,7 +199,7 @@ still say it serves us still" — honoring the past while revealing the present 
 
 **HN parallel:**
 
-> I speak not to disprove what the advocates say,
+> I speak not to disprove what The Practitioners say,
 > But here I am to speak what I do know.
 > You all did use it once, not without cause.
 > What cause withholds you, then, to abandon it?—
